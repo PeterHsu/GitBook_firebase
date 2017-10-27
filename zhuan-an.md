@@ -1,11 +1,17 @@
-Lab01
+# 我的第一個網站
 
-要用管理員身份執行
+## 建立專案
+
+以下執行若有不成功, 就請用管理員身分執行
 
 ```
->ng new Lab01 --routing --style=scss
+>ng new PeterFire --routing --style=scss
+>cd PeterFire
 >npm install firebase angularfire2 --save
+
 ```
+
+## 測試
 
 app.component.ts
 
