@@ -40,13 +40,13 @@ lab01&gt;ng serve
 
 &gt;firebase init
 
-![](file:///C:\Users\J1060022\AppData\Local\Temp\msohtmlclip1\01\clip_image004.png)
+![](/assets/p2.png)
 
 &gt;firebase serve
 
 [http://localhost:5000/](http://localhost:5000/)
 
-![](file:///C:\Users\J1060022\AppData\Local\Temp\msohtmlclip1\01\clip_image006.png)
+![](/assets/p3.png)
 
 &gt;ng build --prod --aot
 
@@ -54,9 +54,9 @@ lab01&gt;ng serve
 
 [http://localhost:5000/](http://localhost:5000/)
 
-![](file:///C:\Users\J1060022\AppData\Local\Temp\msohtmlclip1\01\clip_image008.jpg)
+![](/assets/p4.png)
 
 &gt;firebase deploy
 
-![](file:///C:\Users\J1060022\AppData\Local\Temp\msohtmlclip1\01\clip_image010.png)
+![](/assets/p5.png)
 
