@@ -51,7 +51,7 @@ v1.4.7
 
 雖然版控與程式語言無關, 但卻是必備的技能, 所以教學裡也併入使用。
 
-1.  網站下載, https://git-scm.com
+1. 網站下載, [https://git-scm.com](https://git-scm.com)
 2. 版本檢查
 
 ```
@@ -62,26 +62,26 @@ v2.14.1
 ## 雲端服務
 
 * Firebase
+
   * 架站
-  * https://firebase.google.com/
+  * [https://firebase.google.com/](https://firebase.google.com/)
 
 * GitHub
+
   * 版控
-  * https://github.com/
+  * [https://github.com/](https://github.com/)
+
+## Firebase
+
+申請Firebase後, 執行
+
+```
+>firebase login
+```
+
+輸入一次後就會記住, 以後就不用重新輸入了
 
 ## 後記
 
 Peter較常使用bitbucket做版控, 因為可以放私人的程式庫, 介面我也比較喜歡。
-
-
-
-
-
-
-
-
-
-
-
-
 

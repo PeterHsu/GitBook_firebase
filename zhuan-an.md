@@ -1,4 +1,4 @@
-# 我的第一個網站
+# 認證
 
 ## 建立專案
 
@@ -8,7 +8,6 @@
 >ng new PeterFire --routing --style=scss
 >cd PeterFire
 >npm install firebase angularfire2 --save
-
 ```
 
 ## 測試
