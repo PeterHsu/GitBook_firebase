@@ -50,7 +50,7 @@
 執行
 
 ```
-npm start
+>npm start
 ```
 
 * 結束
@@ -59,13 +59,15 @@ npm start
 
 ## 部署
 
-1. [https://console.firebase.google.com](#)
+一、
 
-在Firebase上建立新的專案
+在Firebase上建立新的專案, [https://console.firebase.google.com](#)
 
 ![](/assets/import.png)
 
-1. 執行
+二、
+
+執行
 
 ```
 >firebase init
