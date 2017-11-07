@@ -65,13 +65,13 @@ npm start
 
 ![](/assets/import.png)
 
-2. 執行
+1. 執行
 
 ```
 >firebase init
 ```
 
-第1/2及1/2的問題
+第1/3及1/3的問題
 
 ![](/assets/import1.png)
 
@@ -79,5 +79,7 @@ npm start
 
 ![](/assets/import4.png)
 
+第4/5及5/5的問題, 　
 
+![](/assets/import5.png)
 
