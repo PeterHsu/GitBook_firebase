@@ -117,5 +117,17 @@
 
 四、
 
+執行
+
+```
+>firebase deploy
+```
+
+![](/assets/import6.png)
+
+瀏覽 https://peterfire-d933c.firebaseapp.com/
+
+
+
 
 
