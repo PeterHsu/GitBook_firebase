@@ -57,5 +57,13 @@ npm start
 
 按著Ctrl不放, 連按兩次C
 
+## 部署
+
+1. [https://console.firebase.google.com](#)
+
+在Firebase上建立新的專案
+
+![](/assets/import.png)
+
 
 
