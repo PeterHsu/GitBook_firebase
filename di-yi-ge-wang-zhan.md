@@ -34,7 +34,7 @@
 >ng serve --open
 ```
 
-或修改package.json
+或修改package.json, 將"start"加上--open參數
 
 ```json
 "scripts": {
@@ -45,6 +45,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+```
+
+執行
+
+```
+npm start
 ```
 
 
