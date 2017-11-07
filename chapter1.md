@@ -13,7 +13,7 @@
    1. 網站下載, [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 2. Node JS  
    1. 網站下載, [https://nodejs.org/](https://nodejs.org/)  
-   2. 請安裝 Version 6  
+   2. 請安裝 Version 8  
    3. 內附npm, 更新版本
 
    ```
@@ -38,13 +38,13 @@
 
 ```
 >node -v
-v6.11.3
+v8.9.0
 >npm -v
 v5.5.1
 > ng -v
-v1.4.7
+v1.5.0
 >firebase --version
-3.13.1
+3.14.0
 ```
 
 ## 程式版控
@@ -56,7 +56,7 @@ v1.4.7
 
 ```
 >git --version
-v2.14.1
+v2.15.0
 ```
 
 ## 雲端服務
@@ -79,7 +79,13 @@ v2.14.1
 >firebase login
 ```
 
-輸入一次後就會記住, 以後就不用重新輸入了
+輸入一次後就會記住, 以後就不用重新輸入了,  如果想換, 可以執行
+
+```
+>firebase logout
+```
+
+後, 重新login
 
 ## 後記
 

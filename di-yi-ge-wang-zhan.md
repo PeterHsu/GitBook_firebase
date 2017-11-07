@@ -10,5 +10,21 @@
 >npm install firebase angularfire2 --save
 ```
 
+## 測試專案
 
+啟動測試的網站伺服器
+
+```
+>ng serve
+```
+
+或
+
+```
+>npm start
+```
+
+瀏覽
+
+[http://localhost:4200/](http://localhost:4200/)
 
