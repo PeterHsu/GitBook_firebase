@@ -34,7 +34,7 @@
 >ng serve --open
 ```
 
-或修改package.json, 將"start"加上--open參數
+或修改package.json, "start": "ng serve --open"
 
 ```json
 "scripts": {
@@ -87,4 +87,27 @@
 以下是完整的結果
 
 ![](/assets/import5.png)
+
+三、
+
+執行
+
+```
+>ng builde --prod --aot
+```
+
+或修改package.json, "build": "ng build --prod --aot"
+
+```json
+"scripts": {
+    "ng": "ng",
+    "start": "ng serve --open",
+    "build": "ng build --prod --aot",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+```
+
+
 
