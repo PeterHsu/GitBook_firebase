@@ -65,5 +65,19 @@ npm start
 
 ![](/assets/import.png)
 
+2. 執行
+
+```
+>firebase init
+```
+
+第1/2及1/2的問題
+
+![](/assets/import1.png)
+
+第3/3的問題,  選擇剛剛建立好的專案
+
+![](/assets/import4.png)
+
 
 
