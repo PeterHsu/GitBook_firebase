@@ -71,15 +71,18 @@ npm start
 >firebase init
 ```
 
-第1/3及1/3的問題
+第1/5的問題：Yes  
+第2/5的問題：Hosting
 
 ![](/assets/import1.png)
 
-第3/3的問題,  選擇剛剛建立好的專案
+第3/5的問題：選擇剛剛建立好的專案
 
 ![](/assets/import4.png)
 
-第4/5及5/5的問題, 　
+第4/5的問題：dist  
+第5/5的問題：Yes  
+以下是完整的結果
 
 ![](/assets/import5.png)
 
