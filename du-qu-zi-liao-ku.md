@@ -110,3 +110,29 @@ export class AppComponent {
 
 ![](/assets/import13.png)
 
+建立資料
+
+![](/assets/import14.png)
+
+![](/assets/import15.png)
+
+![](/assets/import16.png)
+
+結果
+
+![](/assets/import17.png)
+
+## 測試
+
+```
+>ng serve
+```
+
+瀏覽 http://localhost:4200/
+
+畫面如下
+
+![](/assets/import18.png)
+
+
+
