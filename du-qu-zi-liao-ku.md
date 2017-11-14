@@ -91,7 +91,7 @@ export class AppComponent {
 
 畫面顠示
 
-```
+```html
 <ul>
   <li *ngFor="let item of items | async">
     {{item.name}}
@@ -100,5 +100,13 @@ export class AppComponent {
 <router-outlet></router-outlet>
 ```
 
+啟動資料庫
 
+上Firebase, 啟動Cloud Firestore
+
+![](/assets/import12.png)
+
+選擇\[以測試模式啟動\]
+
+![](/assets/import13.png)
 
