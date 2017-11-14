@@ -6,8 +6,6 @@
 
 ```
 >ng new PeterFire --routing --style=scss
->cd PeterFire
->npm install firebase angularfire2 --save
 ```
 
 ## 測試專案
@@ -125,9 +123,5 @@
 
 ![](/assets/import6.png)
 
-瀏覽 https://peterfire-d933c.firebaseapp.com/
-
-
-
-
+瀏覽 [https://peterfire-d933c.firebaseapp.com/](https://peterfire-d933c.firebaseapp.com/)
 
