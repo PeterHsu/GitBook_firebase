@@ -128,11 +128,46 @@ export class AppComponent {
 >ng serve
 ```
 
-瀏覽 http://localhost:4200/
+瀏覽 [http://localhost:4200/](http://localhost:4200/)
 
 畫面如下
 
 ![](/assets/import18.png)
+
+## 佈署
+
+### 設定Firebase正式環境的參數
+
+environment.prod.ts, 內容和environment.ts一樣
+
+```js
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyClYV4rIXtXFI7xo9vq0UIc7mKOYdxG8V0',
+    authDomain: 'peterfire-d933c.firebaseapp.com',
+    databaseURL: 'https://peterfire-d933c.firebaseio.com',
+    projectId: 'peterfire-d933c',
+    storageBucket: 'peterfire-d933c.appspot.com',
+    messagingSenderId: '673036642538'
+  }
+};
+```
+
+### 建置
+
+```
+>ng build --prod --aot
+>firebase deploy
+```
+
+瀏覽 [https://peterfire-d933c.firebaseapp.com/](https://peterfire-d933c.firebaseapp.com/)
+
+## 測試
+
+網頁不要關, 到firebase console改掉name, 畫面應該要自動更新
+
+![](/assets/import19.png)
 
 
 
