@@ -1,6 +1,6 @@
 # 建立範例
 
-目標
+## 目標
 
 依Angular官方的Tutorial建立範例
 
