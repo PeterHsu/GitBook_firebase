@@ -47,7 +47,6 @@ export class HeroService {
     });
   }
 }
-
 ```
 
 dashboard.component.ts
@@ -75,7 +74,6 @@ export class DashboardComponent implements OnInit {
     this.heroes = this.heroService.getHeroesWithID();
   }
 }
-
 ```
 
 app-routing.module.ts
@@ -95,7 +93,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
 ```
 
 app.component.ts
@@ -111,7 +108,31 @@ import { Component} from '@angular/core';
 export class AppComponent {
   title = 'Tour of Heroes';
 }
+```
 
+加上bootstrap
+
+```
+>npm install bootstrap@4.0.0-beta.2
+```
+
+styles.scss
+
+```scss
+@import "~bootstrap/scss/bootstrap";
+```
+
+app.component.html
+
+```html
+<div class="container">
+  <h1>{{title}}</h1>
+  <nav class="nav nav-pills">
+    <a class="nav-item nav-link active" routerLink="/dashboard">Dashboard</a>
+    <a class="nav-item nav-link" routerLink="/heroes">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
 ```
 
 
