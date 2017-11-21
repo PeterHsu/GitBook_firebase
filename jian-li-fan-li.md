@@ -135,5 +135,24 @@ app.component.html
 </div>
 ```
 
+dashboard.component.html
+
+```html
+<div class="row">
+  <div class="col text-md-center">
+    <h3>Top Heroes</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3" *ngFor="let hero of heroes | async">
+    <div class="card text-white bg-success mb-3" style="width: 10rem;">
+      <div class="card-body">
+        <h4>{{hero.name}}</h4>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
 
 
