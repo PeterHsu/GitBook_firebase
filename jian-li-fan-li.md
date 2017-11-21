@@ -4,13 +4,15 @@
 
 依Angular官方的Tutorial建立範例
 
-新增程式
+## 新增程式
 
-&gt;ng g class hero
+```
+>ng g class hero
+>ng g service hero
+>ng g component dashboard
+```
 
-&gt;ng g service hero
-
-&gt;ng g component dashboard
+## 程式碼
 
 hero.ts
 
@@ -21,7 +23,7 @@ export class Hero {
 }
 ```
 
-hero.service.tst
+hero.service.ts
 
 ```js
 import { Injectable } from '@angular/core';
@@ -110,11 +112,13 @@ export class AppComponent {
 }
 ```
 
-加上bootstrap
+## 加上bootstrap
 
 ```
 >npm install bootstrap@4.0.0-beta.2
 ```
+
+## 程式碼
 
 styles.scss
 
