@@ -76,6 +76,39 @@ export class HeroService {
 }
 ```
 
+app.module.ts
+
+```js
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { environment } from '../environments/environment';
+import { HeroService } from './hero.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    DashboardComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
+  ],
+  providers: [
+    HeroService
+  ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+```
+
 dashboard.component.ts
 
 ```js
