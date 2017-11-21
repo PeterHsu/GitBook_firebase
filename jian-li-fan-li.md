@@ -25,6 +25,10 @@ export const HEROES: Hero[] = [
 
 ![](/assets/import31.png)
 
+## 畫面結果
+
+![](/assets/import32.png)
+
 ## 新增程式
 
 ```
