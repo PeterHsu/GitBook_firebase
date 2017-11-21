@@ -89,7 +89,9 @@ export class AppComponent {
 }
 ```
 
-畫面顠示
+### 畫面顯示
+
+app.component.html
 
 ```html
 <ul>
@@ -100,7 +102,7 @@ export class AppComponent {
 <router-outlet></router-outlet>
 ```
 
-啟動資料庫
+## 啟動資料庫
 
 上Firebase, 啟動Cloud Firestore
 
@@ -168,6 +170,4 @@ export const environment = {
 網頁不要關, 到firebase console改掉name, 畫面應該要自動更新
 
 ![](/assets/import19.png)
-
-
 
